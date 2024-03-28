@@ -1,0 +1,37 @@
+.card{
+    /* padding:20px; */
+    margin:20px;
+    height:70vh;
+}
+
+.mini-title{
+    text-align:center;
+    padding-top:30px;
+}
+
+.card1{
+    /* background-color:rgb(236, 88, 88) !important; */
+}
+
+body{
+    background-color: rgb(195, 210, 255) !important;
+}
+
+.btn-primary{
+    display:block !important;
+    margin-top:auto !important;
+}
+
+p{
+    text-align: center;
+    font-size:18px;
+}
+
+.inst{
+    font-size:27px;
+}
+
+.by{
+    font-size:15px;
+    margin:0 !important;
+}
