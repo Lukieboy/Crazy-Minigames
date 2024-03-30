@@ -1,0 +1,42 @@
+<DOCTYPE html>
+    <head>
+        <meta charset="utf-8">  
+        <title> Tic Tac Toe </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="../css/button.css">
+        <body>
+            <h1>TicTacToe</h1>
+            <div class="gameArea">
+                <div class="stats">
+                    <div class="playerInfo">
+                        <!-- <p class="playerStat1">Player 1: <span>0</span></p>
+                        <p class="playerStat2">Player 2: <span>0</span></p> -->
+                        <div class="playerStat"><b>Player 1</b></div>
+                        <div class="playerStat" id="p1score"><b>0</b></div>
+                        <div class="playerStat"><b>Player 2</b></div>
+                        <div class="playerStat" id="p2score"><b>0</b></div>
+                    </div>
+                    <div id="turndisplay"><img src="pretzel.jpg" width="25px">'s turn</div>
+                </div>
+                <div class="gameBoard">
+                    <div class="gameCell" id="t1" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="t2" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="t3" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="m1" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="m2" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="m3" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="b1" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="b2" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                    <div class="gameCell" id="b3" onclick="takeTurn(this);"><img src="question.jpeg" width="80px"></div>
+                </div>
+            </div>
+            <div class="popup" id="popup">
+                <div id="gameMessage"></div> 
+                <button class="button" id="reset" onclick="reset();closepopup()">Play Again</button>
+            </div>
+        <button class="bttn-fill bttn-md back"><a href="../index.html">Back to Home</a></button>
+
+        </body>
+    </head>
+</html>

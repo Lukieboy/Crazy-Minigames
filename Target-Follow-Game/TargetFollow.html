@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">  
+        <title> Target Following Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../css/button.css">
+    </head>
+        <body>
+            <canvas id="canvas" width="1450px" height="785px"></canvas>
+            <img src="target.webp" class="target" id="target" ></img>
+            <div class="obstical" id="obstical"></div>
+            <div class="timedisplay">
+                <div>Time:</div>
+                <div class="timer" id="timer"><b>15</b></div>
+                <div>s</div>
+            </div>
+            <div class="scoredisplay">
+                <div>Score:</div>
+                <div class="score" id="score"><b>0</b></div>
+            </div>
+            <div class="menu" id="menu">
+                <br><h1>Co-Op Target Following Game</h1><br>
+                <div>In this game, you will be controlling a character, however one of you controls up and down, and the other controls left and right. Progress through the levels by trying to reach the target and avoiding the obsticals in the time provided as the time you get slowly gets shorter and shorter!</div><br>
+                <button class="button" id="play" onclick="update();closemenu();random();">Start</button>
+            </div>
+            <div class="popup" id="popup">
+                <br><h1>Time Ran Out!</h1><br>
+                <button class="popup-button" id="reset" onclick="update();random();closepopup();">Play Again</button>
+            </div>
+
+            <button class="bttn-fill bttn-md back"><a href="../index.html">Back to Home</a></button>
+
+        </body>    
+    <script src="targetscriptnew.js"></script>
+</html>

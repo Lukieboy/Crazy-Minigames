@@ -1,0 +1,149 @@
+
+
+:root {
+  --color-win: #78CF82;
+  --color-lose: #D94545;
+  --color-neutral: #445069;
+  --color-neutral-light: #D2D2D2;
+  --font-size-large: 60px;
+}
+
+/* main */
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+}
+
+li, ol, ul {
+  padding: 0;
+  display: inline-block;
+}
+
+h2 {
+  margin: 0;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: var(--font-size-large);
+  margin: 0;
+}
+
+button {
+  margin: 6px !important;
+  border: 1px solid transparent;
+  padding: 0.85rem 1.4rem !important;
+  color: hwb(200 22% 69%);
+  font-size: 20px;
+  background-color: #E5E5E5;
+  border-radius: 5px !important;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  max-height: 900px;
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Title */
+
+.header {
+  color: #000000;
+}
+
+/* Phrase */
+
+.letter {
+  font-size: 18px;
+  height: 65px;
+  width: 65px;
+  padding: 16px 1px 0 1px;
+  margin-right: 2px;
+  color: transparent;
+  background: var(--color-neutral-light);
+  border-radius: 5px;
+}
+
+.space {
+  width: 15px;
+}
+
+.show {
+  color: #000;
+  background-color: #76CE82;
+}
+
+/* Keyboard */
+
+.keyrow {
+  display: flex;
+  justify-content: center;
+}
+
+.chosen {
+  background: var(--color-neutral);
+  border-radius: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.btn__reset {
+  padding: 8px;
+  margin: 50px auto;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-size:20px;
+}
+.win {
+  background-color: var(--color-win);
+}
+
+.win a {
+  color: var(--color-win);
+}
+
+.lose {
+  background-color: var(--color-lose);
+}
+
+.lose a {
+  color: var(--color-lose);
+}
+
+.back{
+  margin-left:635px !important;
+  margin-top:7px !important;
+  margin-bottom: 4px !important;
+  width:12% !important;
+}
+
+
+ol, ul{
+  margin:0 !important;
+  padding: 0 !important;
+}
+
+
+
+.win{
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:center;
+  background-color:none;
+}
